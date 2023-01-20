@@ -32,6 +32,9 @@ class Dashboard extends Component {
   state = {
     loading: false,
     focused: null,
+    days: [],
+    appointments: {},
+    interviewers: {}
 
   };
 
